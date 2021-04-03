@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- CSS -->
+        <link rel="stylesheet" href="style.css">
+        <title>Montevideo Tourist Guide</title>
+        <script>
+            var slideIndex = [1,1];
+            var slideId = ["mySlides1", "mySlides2"]
+            showSlides(1, 0);
+            showSlides(1, 1);
+
+            function plusSlides(n, no) {
+            showSlides(slideIndex[no] += n, no);
+            }
+
+            function showSlides(n, no) {
+            var i;
+            var x = document.getElementsByClassName(slideId[no]);
+            if (n > x.length) {slideIndex[no] = 1}    
+            if (n < 1) {slideIndex[no] = x.length}
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
+            }
+            x[slideIndex[no]-1].style.display = "block";  
+            }
+        </script>
+    </head>
+    <body>
+        <header>
+            <img id="logo" src="img/mtg_logo_white.png" alt="Montevideo Tursitic Guide">
+            <nav>
+                <ul class="navbar">
+                    <li class="nav_item1"><a href="index.html">HOME</a></li>
+                    <li class="nav_item2"><a href="#culture">CULTURE</a></li>
+                    <li class="nav_item3"><a href="#neighborhoods">NEIGHBORHOODS</a></li>
+                    <li class="nav_item4"><a href="#explore">EXPLORE</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+                <section class="portada">
+                    <img class="portada_img" src="img/portada.png" alt="Portada">
+                    <h3>Montevideo, Uruguay</h3>
+                    <p>Montevideo is the capital city of the Oriental Republic of Uruguay, the political and economic center of the country, and the MERCOSUR administrative headquarters. <br> <br>
+                        It was founded between 1724 and 1730 as a fortified town next to a port on the River Plate, in the big bay which holds Cerro de Montevideo (Montevideo’s Hill) . <br>
+                        During this period, spanish families arrived from Buenos Aires and the Canary Islands to populate the new city. <br> <br>
+                        Montevideo is a key destination in Latin America. All over the year,the city offers visitors a diverse cultural and recreational agenda, quality services, and beautiful landscapes, along with security and the typical hospitality of Uruguayans. <br>
+                        Montevideo is also known as the seat for international congresses and events.</p>
+                </section>
+                <section id="culture">
+                    <h3 class="culture_h">CULTURAL MONTEVIDEO</h3>
+                    <h4 class="culture_h">Carnival</h4>
+                    <p>From late January to March, Montevideo celebrates the longest carnival in the world. This popular celebration had its origin in different immigrant cultures, mostly Spanish and Africans. </p>
+                    <h4 class="culture_h">Murgas</h4>
+                    <p>Marching to the beat of its unique choral rhythm, popularly known as marcha camión, murgas criticize local events and ridicule politicians, sports and television figures. Murgas have supporters both in Uruguay and abroad. As well as being internationally renowned, the Uruguayan murga is one of the distinctive icons of the country.</p>
+                    <h4 class="culture_h">Candombe </h4>
+                    <p>By mid 18th century, the Port of Montevideo was the only access point for Africans slaves to enter the River Plate region. At the end of that century, 35% of Montevideo’s population was of African descent. Black slaves used to play the musical rhythms of their own countries in their spare time. The music they produced became known as tango, or tambo. It was not until 1830 that the term candombe appeared. Nowadays candombe is played in Montevideo streets during weekends and holidays.</p>
+                    <h4 class="culture_h">Tango</h4>
+                    <p>Tango music reflects the cultural relationship/companionship between Montevideo and Buenos Aires. This was expressed in a joint request submitted by both countries at the UNESCO to declare Tango as Intangible Heritage of Humanity. n the last decades of the 19th century, a massive flow of immigrants, mostly europeans, started to arrive in Uruguay and Argentina. Tango was born of this multicultural flow. Its musical background is African, Latin-American and European, merged in such a way that the resulting product is completely new.</p>
+                    <h4 class="culture_h">Football</h4>
+                    <p>In Montevideo, passion for football can be found at any corner of the city. From the Centenario Stadium, declared World Heritage Site by FIFA, and its museum, to the different matches of the professional league, Uruguayans really love football.</p>
+                    <h4 class="culture_h">Racecourse of Maroñas</h4>
+                    <p>Around 1850, the English community introduced race horses in Uruguay. Hipódromo de Maroñas is one of the main racetracks in the region, and features one of the best tracks in the world. Races are broadcast live, and bets are received from the United States and Mexico, among other countries.</p>
+                    <div id="culture_slider">
+                        <div class="slideshow-container">
+                            <div class="mySlides1">
+                              <img src="img/c1.png" alt="Murga" style="width:100%">
+                            </div>
+                            <div class="mySlides1">
+                              <img src="img/c2.png" alt="Candombe" style="width:100%">
+                            </div>
+                            <div class="mySlides1">
+                              <img src="img/c3.png" alt="Tango" style="width:100%">
+                            </div>
+                            <div class="mySlides1">
+                                <img src="img/c4.png" alt="Football" style="width:100%">
+                            </div>
+                            <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+                            <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+                        </div>
+                        <script>plusSlides(1, 0)</script>
+                    </div>
+                </section> 
+                <section id="neighborhoods">
+                    <h3 class="neighborhood_h">MONTEVIDEO NEIGHBORHOODS</h3>
+                    <h4 class="neighborhood_h">Ciudad Vieja</h4>
+                    <p>Montevideo as a fortified town became an open city when the fortifications of the colonial times were pulled down after Uruguay won its independence. Independence Square is the link between the old and the new part of the city, and marks the beginning of 18 de Julio street. Around the square lie some of the most outstanding buildings of the city, such as Solís Theatre, Salvo Palace, Gate of the Citadel,  Estévez Palace, and Executive Tower, the seat of the government.</p>
+                    <br><p>Sarandi Pedestrian Street is the main access way to Ciudad Vieja area, a typical old town street featuring different architectural styles. It connects two typical sites of Ciudad Vieja: Matriz Square (the major square of the colonial times) and Independence Square. As in ancient times, walking along Sarandí Street from Matriz Church to Independence Square is still one of the favorite outings in the city.</p>
+                    <br><p>Solís Theatre: It is the main theatre in the city, and the one with the highest architectural value. Positioned as one of the great theatres of South America, it features rehearsing rooms, a gallery, a store, a conference room and a restaurant, and displays diverse artistic programs all over the year.</p>
+                    <br><p>Walking around Ciudad Vieja the old part of the city tourists can find historical buildings, museums, galleries, cafes, restaurants, design shops, bookstores, antique shops, and a long string of fashion shops.</p>
+                    <h4 class="neighborhood_h">Centro and Cordón</h4>
+                    <p>From Independence Square to the Obelisk, with 18 de Julio Ave at their core, they feature an intense commercial, cultural and administrative activity on business days.</p>
+                    <br><p>18 de Julio Ave is the main avenue of the city, goes from Ciudad Vieja to Parque Batlle. Most of the economic, administrative and commercial activities of Uruguayans take place in its surroundings. It holds beautiful buildings, such as Salvo Palace, Piria Palace (Court of Justice), City Hall and University of the Republic.</p>
+                    <br><p>Mirador de la Intendencia it's a panoramic viewpoint located on the 22nd floor of the City Hall building of Montevideo, with 77 meters of height, almost the entire city can be seen from its top. It is open all year round.</p>
+                    <h4 class="neighborhood_h">Parque Rodó</h4>
+                    <p>Located opposite Ramírez Beach, covering an area of 43 hectares, Parque Rodó is one of the largest parks in town. It features a large variety of tree species around a lake that can be toured by pedal boat. It also includes a high area, called ‘Canteras’ and an amusement park. Teatro de Verano, Visual Arts Museum, the School of Engineering, a great number of monuments, and an outdoor photo gallery can be found there as well.</p>
+                    <h4 class="neighborhood_h">Punta Carretas and Pocitos</h4>
+                    <p>In the quiet streets and avenues of this old area, the romantic spirit of 1900’s Montevideo can still be felt. Its main points of interest are the Golf Club, Punta Carretas Shopping Center, Museum-House of Uruguayan poet Juan Zorrilla de San Martin, and Villa Biarritz Park. Punta Carretas is also known for being a significant gastronomic center.</p>
+                    <br><p>Pocitos neighborhood offers a mixture of construction styles. Here the old traces of the city blend with state-of-the art architecture. On top of this, Pocitos holds one of the most awesome and visited beaches of the River Plate. Montevideo Shopping Center and a large number of restaurants can also be found in this area.</p>
+                    <div id="neighborhood_slider">
+                        <div class="slideshow-container">
+                            <div class="mySlides2">
+                              <img src="img/n1.png" alt="Puerto del Buceo" style="width:100%">
+                            </div>
+                            <div class="mySlides2">
+                              <img src="img/n2.png" alt="Parque Rodó" style="width:100%">
+                            </div>
+                            <div class="mySlides2">
+                              <img src="img/n3.png" alt="Teatro Solís" style="width:100%">
+                            </div>
+                            <div class="mySlides2">
+                                <img src="img/n4.png" alt="Puerta de la Ciudadela" style="width:100%">
+                            </div>
+                            <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+                            <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+                        </div>
+                        <script>plusSlides(1, 1)</script>
+                    </div>
+                </section>
+                <section id="explore">
+                    <h3 class="explore_h">EXPLORE MONTEVIDEO</h3>
+                    <h4 class="explore_h">Montevideo by bike</h4>
+                    <p>The city offers urban and natural spaces ideal for biking. Bikers can travel along the almost 30km of promenade and pass through Barrio Sur, Palermo, Parque Rodó, Punta Carretas, Pocitos, Buceo, Malvín, Punta Gorda and Carrasco.</p>
+                    <h4 class="explore_h">Beaches and seafront</h4>
+                    <p>Montevideo beaches lie on the River Plate, along a 30-kilometer coastline called "La Rambla", one of the most attractive and characteristic open spaces in the city, daily visited to take walks or practice sports. They are famous for their fine white sand clean water, ideal for swimming.</p>
+                    <h4 class="explore_h">Nautical sports</h4>
+                    <p>The Port of Buceo is one of the best areas in the city to practice nautical sports. Its moorings hold more than 300 ships, 80% of which are sailing boats. It has 5 mooring franchises for passing boats, boarding services all day long, and a big shipyard for ship repairing and painting.</p>
+                    <div id="explore_slider">
+                        <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d104812.92323865465!2d-56.30647829109727!3d-34.8209373051663!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f80ffc63bf7d3%3A0x6b321b2e355bec99!2sMontevideo%2C%20Departamento%20de%20Montevideo!5e0!3m2!1ses-419!2suy!4v1608265051666!5m2!1ses-419!2suy" width="600" height="450" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    </div>
+                </section>
+        </main>
+        <footer>
+            <p>Designed by Maximiliano Pan</p>
+            <p>Web Disign for Everybody Capstone</p>
+        </footer>
+    </body>
+</html>

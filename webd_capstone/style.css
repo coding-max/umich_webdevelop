@@ -1,0 +1,383 @@
+@media only screen and (max-width: 599px) {
+    body, p, h3{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin: 0;
+    }
+    h3, h4, p{
+        padding-left: 10px;
+    }
+    h3 {
+        margin: 10px 0 20px 0;
+    }
+    h4 {
+        margin: 20px 0 10px 0;
+    }
+    /*** header ***/
+    #logo {
+        width: 250px;
+        margin: 10px 0 0 10px;
+    }
+    .navbar {
+        margin: 10px 0;
+        padding: 0;
+        list-style: none;
+    }
+    .navbar a{
+        text-decoration: none;
+        font-weight: bold;
+        color: black;
+    }
+    .navbar li {
+        background-color: gainsboro;
+    }
+    li.nav_item1, li.nav_item2, li.nav_item3, li.nav_item4 {
+        padding: 5px 0;
+    }
+    li.nav_item1 a {
+        background-color: gainsboro; 
+        padding: 5px 227px 5px 10px;
+        border-left: #beb036;
+        border-left-width: 10px;
+        border-left-style: solid;
+    }
+    li.nav_item1 :hover {
+        color: #beb036;
+    }
+    li.nav_item2 a {
+        width: 100%;
+        background-color: gainsboro; 
+        padding: 5px 196px 5px 10px;
+        border-left: #e2740d;
+        border-left-width: 10px;
+        border-left-style: solid;
+    }
+    li.nav_item2 :hover {
+        color: #e2740d;
+    }
+    li.nav_item3 a {
+        background-color: gainsboro; 
+        padding: 5px 118px 5px 10px;
+        border-left: #2573b8;
+        border-left-width: 10px;
+        border-left-style: solid;
+    }
+    li.nav_item3 :hover {
+        color: #2573b8;
+    }
+    li.nav_item4 a {
+        background-color: gainsboro; 
+        padding: 5px 197px 5px 10px;
+        border-left: #E1017A;
+        border-left-width: 10px;
+        border-left-style: solid;
+    }
+    li.nav_item4 :hover {
+        color: #E1017A;
+    }
+    /*** main ***/
+    /** portada **/
+    .portada {
+        background-color: #beb036;
+        padding: 10px 0 20px 0;
+    }
+    .portada_img {
+        width: 95%;
+        display: block;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+    /** culture **/
+    #culture{
+        padding: 10px 0px;
+    }
+    .culture_h {
+        color: #e2740d;
+        font-weight: bolder;
+    }
+    #culture_slider {
+        background-color: #e2740d;
+        padding: 10px 0 10px 0;
+        margin-top: 20px;
+    }
+    #culture_slider img {
+        width: 95%;
+        display: block;
+        margin: auto;
+    }
+    /** neighborhoods **/
+    #neighborhoods {
+        padding: 10px 0px;
+    }
+    .neighborhood_h {
+        color: #2573b8;
+        font-weight: bolder;
+    }
+    #neighborhood_slider {
+        background-color: #2573b8;
+        padding: 10px 0 10px 0;
+        margin-top: 20px;
+    }
+    #neighborhood_slider img {
+        width: 95%;
+        display: block;
+        margin: auto;
+    }
+    /** explore **/
+    #explore {
+        padding: 10px 0px;
+    }
+    .explore_h {
+        color: #E1017A;
+        font-weight: bolder;
+    }
+    #explore_slider {
+        background-color: #E1017A;
+        padding: 10px 0 10px 0;
+        margin-top: 20px;
+    }
+    #map {
+        width: 96%;
+        margin: 0 2% 0 2%;
+    }
+    /*** slider ***/
+    * {box-sizing: border-box}
+    .mySlides1, .mySlides2 {
+        display: none
+    }
+    img {
+        vertical-align: middle;
+    }
+    .slideshow-container {
+        max-width: 1000px;
+        position: relative;
+        margin: auto;
+    }
+    .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        padding: 16px;
+        margin-top: -22px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+    }
+    .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+    }
+    .prev:hover, .next:hover {
+        background-color: #f1f1f1;
+        color: black;
+    }
+    .mySlides1 img, .mySlides2 img {
+        width: 95%!important;
+    }
+    /*** footer ***/
+    footer {
+        text-align: center;
+        padding: 10px 0px;
+        margin: 0;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    body, p, h3{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin: 0;
+    }
+    body {
+        max-width: 1024px;
+        margin: auto;
+    }
+    h3, h4, p{
+        padding-left: 10px;
+    }
+    h3 {
+        margin: 10px 0 20px 0;
+    }
+    h4 {
+        margin: 20px 0 10px 0;
+    }
+    /*** header ***/
+    #logo {
+        width: 250px;
+        margin: 10px 0 0 10px;
+    }
+    .navbar {
+        margin: 20px 0;
+        padding: 0;
+        list-style: none;
+        background-color: gainsboro; 
+    }
+    .navbar a{
+        text-decoration: none;
+        font-weight: bold;
+        font-size: small;
+        color: black;
+    }
+    .navbar li {
+        background-color: gainsboro;
+    }
+    li.nav_item1 {
+        border-bottom: #beb036;
+        border-bottom-width: 5px;
+        border-bottom-style: solid;
+        display: inline-block!important;
+        text-align: center;
+        width: 24%;
+        padding: 5px 0;
+    }
+    li.nav_item1 :hover {
+        color: #beb036;
+    }
+    li.nav_item2 { 
+        border-bottom: #e2740d;
+        border-bottom-width: 5px;
+        border-bottom-style: solid;
+        display: inline-block!important;
+        text-align: center;
+        width: 24%;
+        padding: 5px 0;
+    }
+    li.nav_item2 :hover {
+        color: #e2740d;
+    }
+    li.nav_item3 {
+        border-bottom: #2573b8;
+        border-bottom-width: 5px;
+        border-bottom-style: solid;
+        display: inline-block!important;
+        text-align: center;
+        width: 26%;
+        padding: 5px 0;
+    }
+    li.nav_item3 :hover {
+        color: #2573b8;
+    }
+    li.nav_item4 {
+        border-bottom: #E1017A;
+        border-bottom-width: 5px;
+        border-bottom-style: solid;
+        display: inline-block!important;
+        text-align: center;
+        width: 24%;
+        padding: 5px 0;
+    }
+    li.nav_item4 :hover {
+        color: #E1017A;
+    }
+    /*** main ***/
+    /** portada **/
+    .portada {
+        background-color: #beb036;
+        padding: 10px 0 20px 0;
+    }
+    .portada_img {
+        width: 95%;
+        display: block;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+    /** culture **/
+    #culture{
+        padding: 10px 0px;
+    }
+    .culture_h {
+        color: #e2740d;
+        font-weight: bolder;
+    }
+    #culture_slider {
+        background-color: #e2740d;
+        padding: 10px 0 10px 0;
+        margin-top: 20px;
+    }
+    #culture_slider img {
+        width: 95%;
+        display: block;
+        margin: auto;
+    }
+    /** neighborhoods **/
+    #neighborhoods {
+        padding: 10px 0px;
+    }
+    .neighborhood_h {
+        color: #2573b8;
+        font-weight: bolder;
+    }
+    #neighborhood_slider {
+        background-color: #2573b8;
+        padding: 10px 0 10px 0;
+        margin-top: 20px;
+    }
+    #neighborhood_slider img {
+        width: 95%;
+        display: block;
+        margin: auto;
+    }
+    /** explore **/
+    #explore {
+        padding: 10px 0px;
+    }
+    .explore_h {
+        color: #E1017A;
+        font-weight: bolder;
+    }
+    #explore_slider {
+        background-color: #E1017A;
+        padding: 10px 0 10px 0;
+        margin-top: 20px;
+    }
+    #map {
+        width: 96%;
+        margin: 0 2% 0 2%;
+    }
+    /*** slider ***/
+    * {box-sizing: border-box}
+    .mySlides1, .mySlides2 {
+        display: none
+    }
+    img {
+        vertical-align: middle;
+    }
+    .slideshow-container {
+        max-width: 1000px;
+        position: relative;
+        margin: auto;
+    }
+    .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        padding: 16px;
+        margin-top: -22px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+    }
+    .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+    }
+    .prev:hover, .next:hover {
+        background-color: #f1f1f1;
+        color: black;
+    }
+    .mySlides1 img, .mySlides2 img {
+        width: 95%!important;
+    }
+    /*** footer ***/
+    footer {
+        text-align: center;
+        padding: 10px 0px;
+        margin: 0;
+    }
+}
